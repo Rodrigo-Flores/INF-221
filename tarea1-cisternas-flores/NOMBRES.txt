@@ -1,0 +1,6 @@
+1.- Diego Cisternas, 202173521-6
+    - Programación Dinámica
+
+2.- Rodrigo Flores, 202173523-2
+    - Fuerza Bruta
+    
