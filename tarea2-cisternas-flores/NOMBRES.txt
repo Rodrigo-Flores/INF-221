@@ -1,6 +1,5 @@
 1.- Diego Cisternas, 202173521-6
-    - Programación Dinámica
-
 2.- Rodrigo Flores, 202173523-2
-    - Fuerza Bruta
-    
+
+Observación:
+    El trabajo no fue dividido. Ambos trabajamos juntos por la solución del problema (incluye código).
