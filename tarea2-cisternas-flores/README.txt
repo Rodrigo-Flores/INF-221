@@ -1,10 +1,10 @@
-Instrucciones de uso del programa:
+Instrucciones de uso del programa (hay dos opciones):
 
-1. Compila el programa utilizando el comando:
-   g++ main.cpp -Wall
+1. Asumiendo que el archivo con la entrada se llama input.dat:
+   make input
 
-2. Ejecuta el programa con el siguiente comando:
-   ./a.out < input.dat
+2. Dando el nombre manualmente:
+   make all < input.dat
 
    Donde "input.dat" es el archivo de ejemplo adjunto que contiene los datos de prueba mencionados en el enunciado de la tarea.
 
