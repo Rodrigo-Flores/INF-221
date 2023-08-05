@@ -12,16 +12,15 @@ def consultar(arreglo):
     if len(arreglo) <= 1:
         return arreglo
 
-    # Dividir el arreglo en mitades
+    # Decrecer
     mitad = len(arreglo) // 2
     arreglo_izquierdo = arreglo[:mitad]
     arreglo_derecho = arreglo[mitad:]
 
-    # Resolver recursivamente los subarreglos
+    # Conquistar
     unicos_izquierdos = consultar(arreglo_izquierdo)
     unicos_derechos = consultar(arreglo_derecho)
 
-    # Combinar las soluciones eliminando duplicados
     i = 0
     j = 0
     unicos = []
@@ -38,7 +37,6 @@ def consultar(arreglo):
             i += 1
             j += 1
 
-    # Agregar los elementos restantes de los subarreglos
     unicos.extend(unicos_izquierdos[i:])
     unicos.extend(unicos_derechos[j:])
 
